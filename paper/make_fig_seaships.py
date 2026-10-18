@@ -22,9 +22,8 @@ CLASSES = json.loads(Path("data/seaships/classes.json").read_text())
 recs = json.loads(Path("data/seaships/pose.json").read_text())["records"]
 by_stem = {Path(r["image_path"]).stem: r for r in recs}
 test = [r for r in recs if r.get("source_split") == "test"]
-# six-cell palette shared with Fig. 1 (make_fig_decomp.py), in CELLS order
-COLORS = np.array([[0xF2,0xC8,0x0F],[0x8C,0x56,0x4B],[0xE3,0x77,0xC2],
-                   [0x17,0xBE,0xCF],[0xBC,0xBD,0x22],[0x8A,0x8A,0x8A]], np.float32)
+COLORS = np.array([[214,39,40],[255,127,14],[148,103,189],
+                   [31,119,180],[44,160,44],[23,190,207]], np.float32)   # Fig. 1 palette, CELLS order
 OUT = Path("paper/figures/fig_seaships.jpg")
 SEL = ["000647_0", "006861_0", "000305_0", "004513_0"]   # bulk, fishing, ore, passenger
 DONOR_RANK = {"000305_0": 1, "004513_0": 0}   # which aspect-compatible donor (0=closest)
