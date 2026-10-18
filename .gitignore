@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+
+# installed by scripts/setup_assets.py or produced by training (see README)
+data/pose_B.json
+data/marvel_b/
+data/predictions
+data/seaships/*
+!data/seaships/classes.json
+data/cars/
+checkpoints/
+experiments/*/
+*.pt
+*.pth
+release_assets/

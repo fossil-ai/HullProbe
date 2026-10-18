@@ -1,0 +1,38 @@
+{
+ "labels": [
+  "Bulk Carrier",
+  "Tankers"
+ ],
+ "donor_hull_classes": [
+  "Fishing Vessels",
+  "Yacht"
+ ],
+ "seed": 43,
+ "results": {
+  "ERM": {
+   "acc": 0.6633333333333333,
+   "worst_group_acc": 0.28,
+   "hull_swap_flip": 0.48743718592964824
+  },
+  "SUBG": {
+   "acc": 0.6833333333333333,
+   "worst_group_acc": 0.4,
+   "hull_swap_flip": 0.43902439024390244
+  },
+  "GroupDRO": {
+   "acc": 0.7533333333333333,
+   "worst_group_acc": 0.5066666666666667,
+   "hull_swap_flip": 0.20353982300884957
+  },
+  "JTT": {
+   "acc": 0.67,
+   "worst_group_acc": 0.37333333333333335,
+   "hull_swap_flip": 0.47761194029850745
+  },
+  "DFR": {
+   "acc": 0.7733333333333333,
+   "worst_group_acc": 0.7222222222222222,
+   "hull_swap_flip": 0.15517241379310345
+  }
+ }
+}

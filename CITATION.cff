@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use HullProbe, please cite the paper below."
+title: "HullProbe: Measuring Interventional Part Reliance in Maritime Vessel Classifiers"
+authors:
+  - family-names: Mohammad
+    given-names: Faisal
+    affiliation: "University of Maryland, Baltimore County; Johns Hopkins University Applied Physics Laboratory"
+  - family-names: Younis
+    given-names: Mohamed
+    affiliation: "University of Maryland, Baltimore County"
+license: MIT
+repository-code: "https://github.com/fossil-ai/HullProbe"
+preferred-citation:
+  type: conference-paper
+  title: "HullProbe: Measuring Interventional Part Reliance in Maritime Vessel Classifiers"
+  authors:
+    - family-names: Mohammad
+      given-names: Faisal
+    - family-names: Younis
+      given-names: Mohamed
+  collection-title: "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)"
+  year: 2027

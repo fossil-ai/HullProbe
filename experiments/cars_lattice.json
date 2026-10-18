@@ -1,0 +1,57 @@
+{
+ "n_recipients": 80,
+ "n_cross": 4,
+ "n_same": 2,
+ "part_order": [
+  "body",
+  "front-face",
+  "greenhouse",
+  "body-side",
+  "wheel"
+ ],
+ "influence_cross_mean": [
+  0.0002,
+  0.1479,
+  0.6803,
+  0.21,
+  0.0342
+ ],
+ "influence_same_mean": [
+  0.0,
+  0.1031,
+  0.2047,
+  0.0734,
+  0.0562
+ ],
+ "influence_corrected_mean": [
+  0.0002,
+  0.0447,
+  0.4756,
+  0.1365,
+  -0.0221
+ ],
+ "front_face_share": 0.07043986465702863,
+ "front_face_share_raw": 0.137861955927882,
+ "variance_by_degree_mean": [
+  0.939,
+  0.0488,
+  0.0112,
+  0.001,
+  0.0
+ ],
+ "junta_deg1_mean": 0.9390108029590396,
+ "junta_deg_le2_mean": 0.9878119731527211,
+ "semantic_L0_hist": {
+  "1": 76,
+  "2": 4
+ },
+ "semantic_L0_frac_r1": 0.95,
+ "semantic_L0_median": 1.0,
+ "top_influence_part_counts": {
+  "body": 0,
+  "front-face": 8,
+  "greenhouse": 58,
+  "body-side": 14,
+  "wheel": 0
+ }
+}

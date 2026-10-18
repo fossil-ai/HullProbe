@@ -1,0 +1,98 @@
+{
+ "per_class": 4,
+ "n_cross": 4,
+ "note": "soft margin, fixed recipients, no correct-only filter",
+ "arms": {
+  "baseline": {
+   "hull_soft_mean": 0.3058921149801254,
+   "tot_soft_mean": 0.6943941339163874,
+   "share_soft_mean": 0.45571910609145677,
+   "share_soft_std": 0.007216011521145405,
+   "delta_share_mean": 0.0,
+   "delta_share_std": 0.0,
+   "n_per_seed": [
+    104,
+    104,
+    104
+   ]
+  },
+  "cutmix": {
+   "hull_soft_mean": 0.30429040518207234,
+   "tot_soft_mean": 0.6740676425397396,
+   "share_soft_mean": 0.462175862782747,
+   "share_soft_std": 0.005529411759749386,
+   "delta_share_mean": 0.0064567566912901815,
+   "delta_share_std": 0.00550444344274112,
+   "n_per_seed": [
+    104,
+    104,
+    104
+   ]
+  },
+  "bgswap": {
+   "hull_soft_mean": 0.3458790012197987,
+   "tot_soft_mean": 0.7040356579236686,
+   "share_soft_mean": 0.48534733850342376,
+   "share_soft_std": 0.013860898183627244,
+   "delta_share_mean": 0.029628232411966993,
+   "delta_share_std": 0.007002008769741194,
+   "n_per_seed": [
+    104,
+    104,
+    104
+   ]
+  },
+  "hullswap": {
+   "hull_soft_mean": 0.310894302377934,
+   "tot_soft_mean": 0.6940483672018999,
+   "share_soft_mean": 0.45883066850845483,
+   "share_soft_std": 0.007873939958506835,
+   "delta_share_mean": 0.003111562416998004,
+   "delta_share_std": 0.00793193049881167,
+   "n_per_seed": [
+    104,
+    104,
+    104
+   ]
+  },
+  "jtt": {
+   "hull_soft_mean": 0.31694178931856865,
+   "tot_soft_mean": 0.7156116270090047,
+   "share_soft_mean": 0.4568725654850843,
+   "share_soft_std": 0.012415234798514103,
+   "delta_share_mean": 0.0011534593936275313,
+   "delta_share_std": 0.0064775362138826086,
+   "n_per_seed": [
+    104,
+    104,
+    104
+   ]
+  },
+  "lff": {
+   "hull_soft_mean": 0.3710842518242619,
+   "tot_soft_mean": 0.7927519624876694,
+   "share_soft_mean": 0.47687815996650595,
+   "share_soft_std": 0.00743987346828738,
+   "delta_share_mean": 0.021159053875049183,
+   "delta_share_std": 0.006952996221351278,
+   "n_per_seed": [
+    104,
+    104,
+    104
+   ]
+  },
+  "afr": {
+   "hull_soft_mean": 0.3709589165245735,
+   "tot_soft_mean": 0.8419135412321993,
+   "share_soft_mean": 0.45535936474843713,
+   "share_soft_std": 0.005627888625595173,
+   "delta_share_mean": -0.00035974134301972543,
+   "delta_share_std": 0.0019452750705459146,
+   "n_per_seed": [
+    104,
+    104,
+    104
+   ]
+  }
+ }
+}

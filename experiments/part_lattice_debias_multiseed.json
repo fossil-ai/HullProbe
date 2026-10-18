@@ -1,0 +1,123 @@
+{
+ "arms": {
+  "baseline": {
+   "hull_share_mean": 0.3941850868612322,
+   "hull_share_std": 0.0028865094711605426,
+   "hull_share_per_seed": [
+    0.3927,
+    0.3975,
+    0.3923
+   ],
+   "frac_r1_mean": 0.5128706713213756,
+   "delta_vs_base_mean": 0.0,
+   "delta_vs_base_std": 0.0,
+   "delta_per_seed": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "cutmix": {
+   "hull_share_mean": 0.39602473366633967,
+   "hull_share_std": 0.011432494778020892,
+   "hull_share_per_seed": [
+    0.4005,
+    0.383,
+    0.4046
+   ],
+   "frac_r1_mean": 0.41951710261569414,
+   "delta_vs_base_mean": 0.002059603941426638,
+   "delta_vs_base_std": 0.01762709760621128,
+   "delta_per_seed": [
+    0.0042,
+    -0.0165,
+    0.0185
+   ]
+  },
+  "bgswap": {
+   "hull_share_mean": 0.4609831790051304,
+   "hull_share_std": 0.009591650121214912,
+   "hull_share_per_seed": [
+    0.4647,
+    0.4682,
+    0.4501
+   ],
+   "frac_r1_mean": 0.7334285908688848,
+   "delta_vs_base_mean": 0.06850499918420476,
+   "delta_vs_base_std": 0.009679322798754506,
+   "delta_per_seed": [
+    0.0765,
+    0.0712,
+    0.0578
+   ]
+  },
+  "hullswap": {
+   "hull_share_mean": 0.4079179790651158,
+   "hull_share_std": 0.01088360466306508,
+   "hull_share_per_seed": [
+    0.4197,
+    0.4059,
+    0.3982
+   ],
+   "frac_r1_mean": 0.548223761922392,
+   "delta_vs_base_mean": 0.011622394147469744,
+   "delta_vs_base_std": 0.00796219472750746,
+   "delta_per_seed": [
+    0.0203,
+    0.01,
+    0.0046
+   ]
+  },
+  "jtt": {
+   "hull_share_mean": 0.39914503935410434,
+   "hull_share_std": 0.023690648639780237,
+   "hull_share_per_seed": [
+    0.4222,
+    0.4003,
+    0.3749
+   ],
+   "frac_r1_mean": 0.5046517105340634,
+   "delta_vs_base_mean": 0.0020738822362190872,
+   "delta_vs_base_std": 0.019335955619104117,
+   "delta_per_seed": [
+    0.0238,
+    -0.0044,
+    -0.0132
+   ]
+  },
+  "lff": {
+   "hull_share_mean": 0.41716076986232725,
+   "hull_share_std": 0.018769937305191463,
+   "hull_share_per_seed": [
+    0.4332,
+    0.3965,
+    0.4218
+   ],
+   "frac_r1_mean": 0.5381612932982797,
+   "delta_vs_base_mean": 0.021712263592498383,
+   "delta_vs_base_std": 0.018533556145719502,
+   "delta_per_seed": [
+    0.0403,
+    0.0032,
+    0.0216
+   ]
+  },
+  "afr": {
+   "hull_share_mean": 0.39857952643088046,
+   "hull_share_std": 0.010529433604887499,
+   "hull_share_per_seed": [
+    0.3974,
+    0.4096,
+    0.3887
+   ],
+   "frac_r1_mean": 0.4778834541062802,
+   "delta_vs_base_mean": 0.005779183518192482,
+   "delta_vs_base_std": 0.006527852543971283,
+   "delta_per_seed": [
+    0.0095,
+    0.0096,
+    -0.0018
+   ]
+  }
+ }
+}

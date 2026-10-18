@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hullprobe"
+version = "1.0.0"
+description = "HullProbe: measuring interventional part reliance in maritime vessel classifiers (WACV 2027)."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Faisal Mohammad"}, {name = "Mohamed Younis"}]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy",
+    "pillow",
+    "opencv-python",
+    "torch",
+    "torchvision",
+    "tqdm",
+    "matplotlib",
+    "seaborn",
+]
+
+[project.urls]
+Repository = "https://github.com/fossil-ai/HullProbe"
+
+[project.optional-dependencies]
+seg = ["transformers"]   # SegFormer hull/superstructure segmenter + GroundingDINO prompts
+cars = ["datasets"]      # Stanford Cars fetch (SAM2 part masks installed separately, see README)
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+include = ["hullprobe*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

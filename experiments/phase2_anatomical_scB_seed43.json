@@ -1,0 +1,38 @@
+{
+ "labels": [
+  "Bulk Carrier",
+  "Tankers"
+ ],
+ "donor_hull_classes": [
+  "Container Ship",
+  "Wood Chips Carrier"
+ ],
+ "seed": 43,
+ "results": {
+  "ERM": {
+   "acc": 0.6333333333333333,
+   "worst_group_acc": 0.10666666666666667,
+   "hull_swap_flip": 0.6052631578947368
+  },
+  "SUBG": {
+   "acc": 0.6833333333333333,
+   "worst_group_acc": 0.22666666666666666,
+   "hull_swap_flip": 0.4634146341463415
+  },
+  "GroupDRO": {
+   "acc": 0.77,
+   "worst_group_acc": 0.6,
+   "hull_swap_flip": 0.13852813852813853
+  },
+  "JTT": {
+   "acc": 0.6766666666666666,
+   "worst_group_acc": 0.16,
+   "hull_swap_flip": 0.5024630541871922
+  },
+  "DFR": {
+   "acc": 0.7533333333333333,
+   "worst_group_acc": 0.6571428571428571,
+   "hull_swap_flip": 0.1504424778761062
+  }
+ }
+}

@@ -1,0 +1,139 @@
+{
+ "per_class": 4,
+ "n_cross": 4,
+ "arms": {
+  "baseline": {
+   "hull_abs_mean": 0.46093086183590143,
+   "hull_abs_std": 0.01925992833432216,
+   "sup_abs_mean": 0.6021193142204365,
+   "sup_abs_std": 0.014420682834779033,
+   "tot_abs_mean": 1.063050176056338,
+   "tot_abs_std": 0.03310743561840441,
+   "hull_share_mean": 0.3941850868612322,
+   "hull_share_std": 0.0028865094711605426,
+   "delta_hull_abs_mean": 0.0,
+   "delta_hull_abs_std": 0.0,
+   "delta_tot_abs_mean": 0.0,
+   "delta_tot_abs_std": 0.0,
+   "n_per_seed": [
+    71,
+    72,
+    65
+   ]
+  },
+  "cutmix": {
+   "hull_abs_mean": 0.4546817362508384,
+   "hull_abs_std": 0.008884381617136169,
+   "sup_abs_mean": 0.551711833501006,
+   "sup_abs_std": 0.011837328211782195,
+   "tot_abs_mean": 1.0063935697518442,
+   "tot_abs_std": 0.018656758076855896,
+   "hull_share_mean": 0.39602473366633967,
+   "hull_share_std": 0.011432494778020892,
+   "delta_hull_abs_mean": -0.0077851517037503095,
+   "delta_hull_abs_std": 0.031439421972987894,
+   "delta_tot_abs_mean": -0.05875471960390605,
+   "delta_tot_abs_std": 0.05846536551041909,
+   "n_per_seed": [
+    71,
+    71,
+    70
+   ]
+  },
+  "bgswap": {
+   "hull_abs_mean": 0.5923983292639523,
+   "hull_abs_std": 0.016525725445986444,
+   "sup_abs_mean": 0.6213068650195487,
+   "sup_abs_std": 0.014116237432481573,
+   "tot_abs_mean": 1.213705194283501,
+   "tot_abs_std": 0.012440359689514482,
+   "hull_share_mean": 0.4609831790051304,
+   "hull_share_std": 0.009591650121214912,
+   "delta_hull_abs_mean": 0.14296344371777497,
+   "delta_hull_abs_std": 0.04632705180178001,
+   "delta_tot_abs_mean": 0.18607444769907897,
+   "delta_tot_abs_std": 0.04167378450812731,
+   "n_per_seed": [
+    69,
+    65,
+    71
+   ]
+  },
+  "hullswap": {
+   "hull_abs_mean": 0.4676869292237443,
+   "hull_abs_std": 0.015203402975053874,
+   "sup_abs_mean": 0.5619666602757356,
+   "sup_abs_std": 0.007874430858111398,
+   "tot_abs_mean": 1.0296535894994798,
+   "tot_abs_std": 0.01882229822116258,
+   "hull_share_mean": 0.4079179790651158,
+   "hull_share_std": 0.01088360466306508,
+   "delta_hull_abs_mean": 0.00633532591540404,
+   "delta_hull_abs_std": 0.02735368960911892,
+   "delta_tot_abs_mean": -0.03199475220959596,
+   "delta_tot_abs_std": 0.04354931212092838,
+   "n_per_seed": [
+    74,
+    70,
+    73
+   ]
+  },
+  "jtt": {
+   "hull_abs_mean": 0.46263134687996826,
+   "hull_abs_std": 0.022452701189162018,
+   "sup_abs_mean": 0.5797879106128188,
+   "sup_abs_std": 0.01897389645462884,
+   "tot_abs_mean": 1.0424192574927869,
+   "tot_abs_std": 0.005607340914531788,
+   "hull_share_mean": 0.39914503935410434,
+   "hull_share_std": 0.023690648639780237,
+   "delta_hull_abs_mean": -0.001608318316987672,
+   "delta_hull_abs_std": 0.03354281258933099,
+   "delta_tot_abs_mean": -0.021509007345700895,
+   "delta_tot_abs_std": 0.03367531308766602,
+   "n_per_seed": [
+    72,
+    68,
+    74
+   ]
+  },
+  "lff": {
+   "hull_abs_mean": 0.4937271815616208,
+   "hull_abs_std": 0.03702332395670176,
+   "sup_abs_mean": 0.5673743445441861,
+   "sup_abs_std": 0.0037588369836888146,
+   "tot_abs_mean": 1.061101526105807,
+   "tot_abs_std": 0.0399561210724533,
+   "hull_share_mean": 0.41716076986232725,
+   "hull_share_std": 0.018769937305191463,
+   "delta_hull_abs_mean": 0.031121446318018896,
+   "delta_hull_abs_std": 0.04113660851814078,
+   "delta_tot_abs_mean": -0.0058116446725317685,
+   "delta_tot_abs_std": 0.054456964708368666,
+   "n_per_seed": [
+    73,
+    66,
+    72
+   ]
+  },
+  "afr": {
+   "hull_abs_mean": 0.45996425673417013,
+   "hull_abs_std": 0.01675273832280082,
+   "sup_abs_mean": 0.5902480731592908,
+   "sup_abs_std": 0.008513959797968613,
+   "tot_abs_mean": 1.050212329893461,
+   "tot_abs_std": 0.01963321859296824,
+   "hull_share_mean": 0.39857952643088046,
+   "hull_share_std": 0.010529433604887499,
+   "delta_hull_abs_mean": 0.004521174287112233,
+   "delta_hull_abs_std": 0.012829406498125412,
+   "delta_tot_abs_mean": -0.002282789865013169,
+   "delta_tot_abs_std": 0.012143441182075094,
+   "n_per_seed": [
+    70,
+    69,
+    64
+   ]
+  }
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "labels": [
+  "Bulk Carrier",
+  "Tankers"
+ ],
+ "seed": 43,
+ "shortcut": "bg_color",
+ "results": {
+  "ERM": {
+   "acc": 0.7075,
+   "worst_group_acc": 0.44,
+   "hull_color_flip": 0.38162544169611307
+  },
+  "SUBG": {
+   "acc": 0.6875,
+   "worst_group_acc": 0.35,
+   "hull_color_flip": 0.3890909090909091
+  },
+  "GroupDRO": {
+   "acc": 0.75,
+   "worst_group_acc": 0.39,
+   "hull_color_flip": 0.25
+  },
+  "JTT": {
+   "acc": 0.755,
+   "worst_group_acc": 0.48,
+   "hull_color_flip": 0.22847682119205298
+  },
+  "DFR": {
+   "acc": 0.795,
+   "worst_group_acc": 0.7254901960784313,
+   "hull_color_flip": 0.12578616352201258
+  }
+ }
+}

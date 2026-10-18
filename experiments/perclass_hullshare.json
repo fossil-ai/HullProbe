@@ -1,0 +1,124 @@
+{
+ "rows": [
+  {
+   "class": "Wood Chips Carrier",
+   "hull_share": 0.622107969151671,
+   "n": 5
+  },
+  {
+   "class": "Standby Safety Vessel",
+   "hull_share": 0.6176470588235293,
+   "n": 3
+  },
+  {
+   "class": "Ro-ro Cargo",
+   "hull_share": 0.5956521739130435,
+   "n": 4
+  },
+  {
+   "class": "Reefer",
+   "hull_share": 0.569327731092437,
+   "n": 6
+  },
+  {
+   "class": "Vehicles Carrier",
+   "hull_share": 0.5152091254752852,
+   "n": 5
+  },
+  {
+   "class": "Supply Vessels",
+   "hull_share": 0.5093457943925234,
+   "n": 5
+  },
+  {
+   "class": "Carrier_Floating",
+   "hull_share": 0.4797136038186157,
+   "n": 5
+  },
+  {
+   "class": "Tug",
+   "hull_share": 0.47368421052631576,
+   "n": 4
+  },
+  {
+   "class": "Bulk Carrier",
+   "hull_share": 0.47294589178356716,
+   "n": 6
+  },
+  {
+   "class": "Combat Vessel",
+   "hull_share": 0.4690265486725663,
+   "n": 3
+  },
+  {
+   "class": "Fishing Vessels",
+   "hull_share": 0.4411764705882352,
+   "n": 5
+  },
+  {
+   "class": "Icebreaker",
+   "hull_share": 0.43650793650793657,
+   "n": 5
+  },
+  {
+   "class": "Tankers",
+   "hull_share": 0.43171296296296297,
+   "n": 4
+  },
+  {
+   "class": "Ro-ro_passenger Ship",
+   "hull_share": 0.4287749287749288,
+   "n": 5
+  },
+  {
+   "class": "Passengers Ship",
+   "hull_share": 0.42136150234741787,
+   "n": 5
+  },
+  {
+   "class": "Livestock Carrier",
+   "hull_share": 0.4169675090252708,
+   "n": 3
+  },
+  {
+   "class": "Replenishment Vessel",
+   "hull_share": 0.3835227272727273,
+   "n": 6
+  },
+  {
+   "class": "Container Ship",
+   "hull_share": 0.35454545454545455,
+   "n": 6
+  },
+  {
+   "class": "Heavy Load Carrier",
+   "hull_share": 0.33851674641148327,
+   "n": 6
+  },
+  {
+   "class": "Patrol Vessel",
+   "hull_share": 0.3092783505154639,
+   "n": 5
+  },
+  {
+   "class": "Sailing Vessel",
+   "hull_share": 0.2760416666666667,
+   "n": 5
+  },
+  {
+   "class": "Dredgers",
+   "hull_share": 0.25869565217391305,
+   "n": 6
+  },
+  {
+   "class": "Platform",
+   "hull_share": NaN,
+   "n": 6
+  },
+  {
+   "class": "Yacht",
+   "hull_share": 0.26071428571428573,
+   "n": 4
+  }
+ ]
+}

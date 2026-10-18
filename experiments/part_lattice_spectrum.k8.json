@@ -1,0 +1,65 @@
+{
+ "n_recipients": 221,
+ "n_cross": 8,
+ "n_same": 2,
+ "cell_order": [
+  "hull-fwd",
+  "hull-mid",
+  "hull-aft",
+  "sup-fwd",
+  "sup-mid",
+  "sup-aft"
+ ],
+ "influence_cross_mean": [
+  0.1358,
+  0.214,
+  0.1315,
+  0.1401,
+  0.2753,
+  0.1547
+ ],
+ "influence_same_mean": [
+  0.0862,
+  0.1416,
+  0.091,
+  0.102,
+  0.1928,
+  0.1104
+ ],
+ "influence_corrected_mean": [
+  0.0496,
+  0.0723,
+  0.0405,
+  0.0381,
+  0.0825,
+  0.0443
+ ],
+ "variance_by_degree_mean": [
+  0.6624,
+  0.1509,
+  0.056,
+  0.0204,
+  0.0058,
+  0.0005
+ ],
+ "junta_deg1_mean": 0.6623601727043795,
+ "junta_deg2_mean": 0.8132917226170217,
+ "semantic_L0_hist": {
+  "1": 114,
+  "2": 68,
+  "3": 10,
+  "4": 5,
+  "5": 1,
+  "7": 23
+ },
+ "semantic_L0_frac_r1": 0.5158371040723982,
+ "semantic_L0_median": 1.0,
+ "top_influence_cell_counts": {
+  "hull-fwd": 37,
+  "hull-mid": 38,
+  "hull-aft": 11,
+  "sup-fwd": 24,
+  "sup-mid": 81,
+  "sup-aft": 30
+ }
+}

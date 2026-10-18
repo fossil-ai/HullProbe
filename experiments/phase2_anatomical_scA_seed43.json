@@ -1,0 +1,38 @@
+{
+ "labels": [
+  "Bulk Carrier",
+  "Tankers"
+ ],
+ "donor_hull_classes": [
+  "Vehicles Carrier",
+  "Ro-ro_passenger Ship"
+ ],
+ "seed": 43,
+ "results": {
+  "ERM": {
+   "acc": 0.63,
+   "worst_group_acc": 0.16,
+   "hull_swap_flip": 0.6402116402116402
+  },
+  "SUBG": {
+   "acc": 0.5866666666666667,
+   "worst_group_acc": 0.13333333333333333,
+   "hull_swap_flip": 0.6931818181818182
+  },
+  "GroupDRO": {
+   "acc": 0.7233333333333334,
+   "worst_group_acc": 0.49333333333333335,
+   "hull_swap_flip": 0.3087557603686636
+  },
+  "JTT": {
+   "acc": 0.6366666666666667,
+   "worst_group_acc": 0.17333333333333334,
+   "hull_swap_flip": 0.6178010471204188
+  },
+  "DFR": {
+   "acc": 0.7666666666666667,
+   "worst_group_acc": 0.7142857142857143,
+   "hull_swap_flip": 0.13043478260869565
+  }
+ }
+}

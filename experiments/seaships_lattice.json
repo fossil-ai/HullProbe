@@ -1,0 +1,25 @@
+{
+ "n_classes": 6,
+ "n_recip": 48,
+ "hull_share": 0.31296758104738154,
+ "deg1": 0.7299390630740709,
+ "deg_le2": 0.9054043481538627,
+ "semL0_median": 2.0,
+ "semL0_frac_r1": 0.25,
+ "corr_influence": [
+  0.0475,
+  0.0703,
+  0.0456,
+  0.0954,
+  0.1865,
+  0.0768
+ ],
+ "cells": [
+  "hull-fwd",
+  "hull-mid",
+  "hull-aft",
+  "sup-fwd",
+  "sup-mid",
+  "sup-aft"
+ ]
+}

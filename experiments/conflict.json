@@ -1,0 +1,185 @@
+{
+ "global": {
+  "super_follow": 0.7331932773109243,
+  "hull_follow_err": 0.04831932773109244,
+  "other": 0.2184873949579832,
+  "n": 476
+ },
+ "per_class": [
+  {
+   "class": "Patrol Vessel",
+   "hull_follow": 0.2,
+   "super_follow": 0.65,
+   "hull_share": 0.3092783505154639,
+   "n": 20
+  },
+  {
+   "class": "Combat Vessel",
+   "hull_follow": 0.15,
+   "super_follow": 0.45,
+   "hull_share": 0.4690265486725663,
+   "n": 20
+  },
+  {
+   "class": "Tankers",
+   "hull_follow": 0.15,
+   "super_follow": 0.55,
+   "hull_share": 0.43171296296296297,
+   "n": 20
+  },
+  {
+   "class": "Livestock Carrier",
+   "hull_follow": 0.125,
+   "super_follow": 0.75,
+   "hull_share": 0.4169675090252708,
+   "n": 8
+  },
+  {
+   "class": "Wood Chips Carrier",
+   "hull_follow": 0.125,
+   "super_follow": 0.8125,
+   "hull_share": 0.622107969151671,
+   "n": 16
+  },
+  {
+   "class": "Bulk Carrier",
+   "hull_follow": 0.08333333333333333,
+   "super_follow": 0.5416666666666666,
+   "hull_share": 0.47294589178356716,
+   "n": 24
+  },
+  {
+   "class": "Standby Safety Vessel",
+   "hull_follow": 0.08333333333333333,
+   "super_follow": 0.6666666666666666,
+   "hull_share": 0.6176470588235293,
+   "n": 24
+  },
+  {
+   "class": "Replenishment Vessel",
+   "hull_follow": 0.0625,
+   "super_follow": 0.75,
+   "hull_share": 0.3835227272727273,
+   "n": 16
+  },
+  {
+   "class": "Carrier_Floating",
+   "hull_follow": 0.05,
+   "super_follow": 0.4,
+   "hull_share": 0.4797136038186157,
+   "n": 20
+  },
+  {
+   "class": "Fishing Vessels",
+   "hull_follow": 0.05,
+   "super_follow": 0.8,
+   "hull_share": 0.4411764705882352,
+   "n": 20
+  },
+  {
+   "class": "Icebreaker",
+   "hull_follow": 0.05,
+   "super_follow": 0.65,
+   "hull_share": 0.43650793650793657,
+   "n": 20
+  },
+  {
+   "class": "Container Ship",
+   "hull_follow": 0.041666666666666664,
+   "super_follow": 0.9166666666666666,
+   "hull_share": 0.35454545454545455,
+   "n": 24
+  },
+  {
+   "class": "Supply Vessels",
+   "hull_follow": 0.041666666666666664,
+   "super_follow": 0.6666666666666666,
+   "hull_share": 0.5093457943925234,
+   "n": 24
+  },
+  {
+   "class": "Dredgers",
+   "hull_follow": 0.0,
+   "super_follow": 1.0,
+   "hull_share": 0.25869565217391305,
+   "n": 20
+  },
+  {
+   "class": "Fire Fighting Vessel",
+   "hull_follow": 0.0,
+   "super_follow": 1.0,
+   "hull_share": null,
+   "n": 12
+  },
+  {
+   "class": "Heavy Load Carrier",
+   "hull_follow": 0.0,
+   "super_follow": 0.75,
+   "hull_share": 0.33851674641148327,
+   "n": 12
+  },
+  {
+   "class": "Passengers Ship",
+   "hull_follow": 0.0,
+   "super_follow": 0.65,
+   "hull_share": 0.42136150234741787,
+   "n": 20
+  },
+  {
+   "class": "Platform",
+   "hull_follow": 0.0,
+   "super_follow": 1.0,
+   "hull_share": NaN,
+   "n": 16
+  },
+  {
+   "class": "Reefer",
+   "hull_follow": 0.0,
+   "super_follow": 0.625,
+   "hull_share": 0.569327731092437,
+   "n": 24
+  },
+  {
+   "class": "Ro-ro Cargo",
+   "hull_follow": 0.0,
+   "super_follow": 0.8,
+   "hull_share": 0.5956521739130435,
+   "n": 20
+  },
+  {
+   "class": "Ro-ro_passenger Ship",
+   "hull_follow": 0.0,
+   "super_follow": 0.7,
+   "hull_share": 0.4287749287749288,
+   "n": 20
+  },
+  {
+   "class": "Sailing Vessel",
+   "hull_follow": 0.0,
+   "super_follow": 1.0,
+   "hull_share": 0.2760416666666667,
+   "n": 16
+  },
+  {
+   "class": "Tug",
+   "hull_follow": 0.0,
+   "super_follow": 0.9,
+   "hull_share": 0.47368421052631576,
+   "n": 20
+  },
+  {
+   "class": "Vehicles Carrier",
+   "hull_follow": 0.0,
+   "super_follow": 0.6666666666666666,
+   "hull_share": 0.5152091254752852,
+   "n": 24
+  },
+  {
+   "class": "Yacht",
+   "hull_follow": 0.0,
+   "super_follow": 1.0,
+   "hull_share": 0.26071428571428573,
+   "n": 16
+  }
+ ]
+}

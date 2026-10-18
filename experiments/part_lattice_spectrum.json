@@ -1,0 +1,67 @@
+{
+ "n_recipients": 277,
+ "n_cross": 4,
+ "n_same": 2,
+ "cell_order": [
+  "hull-fwd",
+  "hull-mid",
+  "hull-aft",
+  "sup-fwd",
+  "sup-mid",
+  "sup-aft"
+ ],
+ "influence_cross_mean": [
+  0.1374,
+  0.2107,
+  0.1379,
+  0.1503,
+  0.2845,
+  0.153
+ ],
+ "influence_same_mean": [
+  0.0923,
+  0.1388,
+  0.0898,
+  0.1074,
+  0.1773,
+  0.1128
+ ],
+ "influence_corrected_mean": [
+  0.0451,
+  0.0719,
+  0.0481,
+  0.0429,
+  0.1072,
+  0.0402
+ ],
+ "variance_by_degree_mean": [
+  0.6296,
+  0.17,
+  0.074,
+  0.0329,
+  0.0093,
+  0.0012
+ ],
+ "junta_deg1_mean": 0.6296059955543136,
+ "junta_deg2_mean": 0.7995839702948175,
+ "semantic_L0_hist": {
+  "1": 121,
+  "2": 93,
+  "3": 32,
+  "4": 5,
+  "5": 2,
+  "6": 1,
+  "7": 23
+ },
+ "semantic_L0_frac_r1": 0.4368231046931408,
+ "semantic_L0_median": 2.0,
+ "top_influence_cell_counts": {
+  "hull-fwd": 44,
+  "hull-mid": 49,
+  "hull-aft": 15,
+  "sup-fwd": 32,
+  "sup-mid": 109,
+  "sup-aft": 28
+ },
+ "_provenance": "restored 2026-10-17 from experiments/camera_ready/spectrum_rerun_n277.json (exact rerun of logs/largeN_spectrum.log: per_class=14, n_cross=4, n_same=2, seed=42)"
+}

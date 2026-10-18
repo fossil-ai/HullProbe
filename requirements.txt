@@ -1,0 +1,21 @@
+# Core — reproduces every result and replots all figures from the shipped
+# experiments/*.json (no GPU or dataset needed for the figures and the tests).
+numpy
+scipy
+pillow
+opencv-python
+torch
+torchvision
+tqdm
+matplotlib
+seaborn
+
+# Optional extras (see README):
+#   hull/superstructure SegFormer segmenter + GroundingDINO prompts
+# transformers
+#   Stanford Cars second-dataset port
+# datasets
+#   SAM2 part masks for the cars port:
+# pip install git+https://github.com/facebookresearch/sam2.git
+#   test suite
+# pytest
